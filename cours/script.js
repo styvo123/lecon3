@@ -37,14 +37,14 @@ let data = [
     {
       firstname: "rosto2",
       lastname: "dev2",
-      age: 29,
+      age:39,
       technos: ["Php", "NodeJs", "React", "Python", "Flutter"],
       admin: false
     },
     {
       firstname: "rosto3",
       lastname: "dev3",
-      age: 32,
+      age: 50,
       technos: ["CSS", "NodeJs", "React", "Taillwindcss", "Flutter"],
       admin: true
     },
@@ -60,4 +60,24 @@ if(data[0].age >data[1].age){
     console.log(data[0].firstname + " est plus jeune que " + data[1] . firstname);
     
 }
+
+// la boucle while
+// let w=0
+// while(w<10){
+//     w++;
+//     console.log("la valeur de w est de " + w) ;
     
+// }
+    
+document.body.addEventListener("click",(e) => {
+    console.log(e.target);
+    if(e.target.id === "javascript"){
+        document.body.style.backgroundColor = "yellow";
+    }else if(e.target.id === "php"){
+        document.body.style.backgroundColor = "purple";
+    }else if(e.target.id === "python"){
+        document.body.style.backgroundColor = "blue";
+    }else if(e.target.id === "laravel"){
+        document.body.style.backgroundColor = "red";
+    }
+});
