@@ -50,6 +50,14 @@ let data = [
     },
   ];
   console.log(data[2].technos);
-  
+//   
+// structures de controle
+
+if(data[0].age >data[1].age){
+    console.log(data[0].firstname + " est plus age que " + data[1] . firstname);
     
+}else{
+    console.log(data[0].firstname + " est plus jeune que " + data[1] . firstname);
+    
+}
     
