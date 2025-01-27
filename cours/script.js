@@ -24,6 +24,32 @@ let objet = {
 
     objet.nomber=22
     console.log(objet);
-    
+    // Stocké les données
+let data = [
+    {
+      firstname: "rosto1",
+      lastname: "dev1",
+      age: 30,
+      technos: ["Javascript", "NodeJs", "React", "laravel", "Flutter"],
+      adress: "MarchéB",
+      admin: false
+    },
+    {
+      firstname: "rosto2",
+      lastname: "dev2",
+      age: 29,
+      technos: ["Php", "NodeJs", "React", "Python", "Flutter"],
+      admin: false
+    },
+    {
+      firstname: "rosto3",
+      lastname: "dev3",
+      age: 32,
+      technos: ["CSS", "NodeJs", "React", "Taillwindcss", "Flutter"],
+      admin: true
+    },
+  ];
+  console.log(data[2].technos);
+  
     
     
