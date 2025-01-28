@@ -1,10 +1,10 @@
 let nomber = 2
-console.log(typeof(Number));
+// console.log(typeof(Number));
 
 // les tableaux
 
 let array2 = ["Bafou","Batie","Bafang","Bamenda"];
-console.log(array2[0][2]);
+// console.log(array2[0][2]);
 
 let objet = {
     firstname: "rosto",
@@ -13,17 +13,17 @@ let objet = {
     technos: ["Javascript", "NodeJs", "React", "laravel", "Flutter"],
     admin: false
     }
-    console.log(typeof(objet));
-    console.log(objet.technos[3]);
+    // console.log(typeof(objet));
+    // console.log(objet.technos[3]);
 
     objet.adress="Bafoussam";
-    console.log(objet);
+    // console.log(objet);
 
     objet.adress="Bafan";
-    console.log(objet);
+    // console.log(objet);
 
     objet.nomber=22
-    console.log(objet);
+    // console.log(objet);
     // Stocké les données
 let data = [
     {
@@ -49,15 +49,15 @@ let data = [
       admin: true
     },
   ];
-  console.log(data[2].technos);
+//   console.log(data[2].technos);
 //   
 // structures de controle
 
 if(data[0].age >data[1].age){
-    console.log(data[0].firstname + " est plus age que " + data[1] . firstname);
+    // console.log(data[0].firstname + " est plus age que " + data[1] . firstname);
     
 }else{
-    console.log(data[0].firstname + " est plus jeune que " + data[1] . firstname);
+    // console.log(data[0].firstname + " est plus jeune que " + data[1] . firstname);
     
 }
 
@@ -86,3 +86,16 @@ document.body.addEventListener("click",(e) => {
 // text-typing
 
 // methode sur les tableaux en javascript
+let fruits1 = ["banane", "pomme"];
+fruits1.push("orange");
+console.log(fruits1);
+
+// .pop
+let fruits2 = ["Banane","Pomme","Orange"];
+fruits2.pop();
+console.log(fruits2);
+
+// .shift
+fruits3 = 
+console.log(fruits3);
+
