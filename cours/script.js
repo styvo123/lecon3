@@ -81,3 +81,8 @@ document.body.addEventListener("click",(e) => {
         document.body.style.backgroundColor = "red";
     }
 });
+
+// switch
+// text-typing
+
+// methode sur les tableaux en javascript
