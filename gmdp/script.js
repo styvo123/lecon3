@@ -20,13 +20,21 @@ const passwordOutput = document.getElementById('password-output');
 
 function generatePassword(){
     let data = [];
+    let password= "";
     if(lowercase.checked) data.push(...dataLowercase);
     if(uppercase.checked) data.push(...dataUpercase);
     if(numbers.checked) data.push(...dataNumbers);
     if(symbols.checked) data.push(...dataSymbols);
 
+    if(data.length=== 0){
+        alert('veiller selectionner des critère');
+        return;
+    }
+
     for(i = 0; i < rangeValue.value; i++) {
-        console.log(data[Math.floor(Math.random() * data.length)]);
+        password = password + data[Math.floor(Math.random() * data.length)]
+        passwordOutput.value = password
+        // console.log(data[Math.floor(Math.random() * data.length)]);
         
     }
     
