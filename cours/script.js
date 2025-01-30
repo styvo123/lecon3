@@ -131,3 +131,24 @@ const timestamp = Date.parse(date6);
 
 console.log(timestamp);
 
+
+function dateParser(chaine){
+    const date = new Date(chaine);
+    const datefr=date.toLocaleDateString('fr-FR',{
+        year: "numeric",
+        month:"long",
+        day:"numeric",
+        hour:"numeric",
+        minute:"numeric",
+        second:"numeric",
+        weekday:"long"
+        
+    });
+    return datefr
+}
+let daate=1738230071000
+console.log(dateParser(timestamp));
+console.log(dateParser(daate));
+console.log(dateParser(date6));
+
+
