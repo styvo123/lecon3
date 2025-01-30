@@ -112,3 +112,22 @@ const date2 = new Date("2025-01-31");
  const year= date3.getMinutes()
  console.log(year);
  
+// format ISO en date
+
+// YYY-MM-DDTHH:MM:SSZ
+
+let date4 = new Date();
+let date5 = new Date();
+
+const isoDate4 = date4.toISOString();
+const isoDate5 = date5.toLocaleDateString();
+console.log(isoDate4);
+console.log(isoDate5);
+
+// timestamp
+
+const date6 = new Date();
+const timestamp = Date.parse(date6);
+
+console.log(timestamp);
+
