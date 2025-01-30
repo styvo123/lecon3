@@ -88,14 +88,27 @@ document.body.addEventListener("click",(e) => {
 // methode sur les tableaux en javascript
 let fruits1 = ["banane", "pomme"];
 fruits1.push("orange");
-console.log(fruits1);
+// console.log(fruits1);
 
 // .pop
 let fruits2 = ["Banane","Pomme","Orange"];
 fruits2.pop();
-console.log(fruits2);
+// console.log(fruits2);
 
 // .shift
-fruits3 = 
-console.log(fruits3);
 
+// console.log(fruits3);
+ 
+
+// LES DATES
+
+const date1 = new Date();
+ console.log(date1);
+
+const date2 = new Date("2025-01-31");
+ console.log(date2);
+
+ const date3= new Date();
+ const year= date3.getMinutes()
+ console.log(year);
+ 
